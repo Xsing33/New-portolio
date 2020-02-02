@@ -1,0 +1,33 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact__title {
+  font-size: 2.5rem;
+  border-bottom: 5px solid black;
+  margin: 3rem auto;
+}
+input {
+  display: block;
+  margin: 1rem;
+}
+
+.contact__small--size {
+  padding: 1.5rem;
+}
+.contact__large--size {
+  height: 20rem;
+  width: 20rem;
+}
